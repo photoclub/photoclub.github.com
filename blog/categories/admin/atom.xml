@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Photoclub]]></title>
-  <link href="http://photoclub.github.com/atom.xml" rel="self"/>
+  <title><![CDATA[Category: admin | Photoclub]]></title>
+  <link href="http://photoclub.github.com/blog/categories/admin/atom.xml" rel="self"/>
   <link href="http://photoclub.github.com/"/>
   <updated>2012-06-25T01:16:17+03:00</updated>
   <id>http://photoclub.github.com/</id>

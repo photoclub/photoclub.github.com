@@ -4,7 +4,7 @@
   <title><![CDATA[Photoclub]]></title>
   <link href="http://photoclub.github.com/atom.xml" rel="self"/>
   <link href="http://photoclub.github.com/"/>
-  <updated>2012-06-25T01:30:12+03:00</updated>
+  <updated>2012-06-25T01:31:55+03:00</updated>
   <id>http://photoclub.github.com/</id>
   <author>
     <name><![CDATA[Photoclub]]></name>
@@ -18,7 +18,8 @@
     <link href="http://photoclub.github.com/blog/2012/06/25/site/"/>
     <updated>2012-06-25T00:51:00+03:00</updated>
     <id>http://photoclub.github.com/blog/2012/06/25/site</id>
-    <content type="html"><![CDATA[<p>Запущена первая alpha версия сайта</p>
+    <content type="html"><![CDATA[<p>Запущена первая alpha версия сайта.
+В данный момент, сайт находится в разработке.</p>
 ]]></content>
   </entry>
   

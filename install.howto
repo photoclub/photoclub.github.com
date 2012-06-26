@@ -1,0 +1,15 @@
+#Предварительно нужно установить rvm и git. гугл в помощь... :)
+
+#установить сайт себе на комп:
+mkdir photoclub && cd photoclub			#создать папку для проекта и перейти в неё
+rvm install 1.9.2	 					#при помощи rvm (ruby version manafer) установить ruby версии 1.9.2
+rvm use 1.9.2 --default					#использовать версию 1.9.2 по умолчанию	
+git clone --branch source https://github.com/photoclub/photoclub.github.com.git 	#забираем исходники сайта с гитхаба
+gem install bundle						#установить bundle
+bundle install							#установить все необходимые gem'ы (пакеты)
+
+#работа с сайтом:
+rake add_post["post_name"]				#создать заготовку для нового блог-поста. 
+rake generate 							#сгенерировать статический блог (файлы появятся в папке _deploy)
+rake preview							#запустить локальный сервер для теста. сайт будет доступен по адресу http://localhost:4000
+rake deploy 							#залить сайт на продакшин (photoclub.github.com)
